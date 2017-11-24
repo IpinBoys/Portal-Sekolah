@@ -1,0 +1,130 @@
+@font-face{
+	font-family: "Raleway";
+	src:url('../Font/raleway/Raleway-Medium.ttf');
+}
+body{
+	background:blue no-repeat center center 
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.transparant{
+	background: rgba(0,0,0,0.5);
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: -999999;
+	position: fixed;
+}
+h1{
+	padding-top: 0 auto;
+	font-family: 'Raleway';
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+h4 {
+    font-family: 'Raleway';
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    text-shadow: 4px 7px 3px #121212;
+}
+a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 4px 7px 3px #121212;
+}
+a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+/********************* MARQUE ATAS *********************/
+.kotak{
+	background-color: rgb(48,56,65);
+	width: 100%;
+	font-weight: bold;
+	color: white;
+	font-family: 'Raleway';
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-color: 0 0 0 2px solid white;
+}
+/********************* ZOOM EFECT *********************/
+
+.box img {
+-webkit-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;}
+
+.zoom-effect:hover .box img {
+
+  -webkit-filter:invert(100%); 
+transform:rotate(360deg);
+}
+/********************* FOOTER *********************/
+.footer{
+	border-top:2px solid #ddd;
+	background-color: #00121b;
+	width:100%;
+	padding: 10px;
+	margin-bottom: 7px;
+}
+.BACKGROUND{
+	background-image: url(../img/bg.jpg);
+		-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 400px;
+
+}
+p{
+	font-family: inherit;
+}
+.judul{
+	color: rgb(243,161,13);
+	font-size: 35px; 
+	text-align: left;
+}
+.h3{
+	color: rgb(245,245,245); 
+	font-size: 15px;
+}
+.silahkan{
+	text-align: center;
+	font-size: 30px; 
+	color: rgb(243,161,13);
+}
+#efek-gambar a img:hover { -webkit-filter:none; /*Returns to default*/; }
+#efek-gambar a img.brightness:hover { -webkit-filter:brightness(0); }
+.blur { -webkit-filter:blur(3px); }
+.contrast { -webkit-filter:contrast(160%); }
+.grayscale { -webkit-filter:grayscale(100%); }
+.huerotate { -webkit-filter:hue-rotate(180deg); }
+.invert { -webkit-filter:invert(100%); }
+.opacity { -webkit-filter:opacity(50%); }
+.saturate { -webkit-filter:saturate(3); }
+.sepia { -webkit-filter:sepia(100%); }
+.brightness { -webkit-filter:brightness(0.25); }
+
+.slide{
+	width: 100%;
+	height: 400px;
+}
+.pslide{
+	width: 100%;
+	height: 50%;
+	font-family: times new roman;
+	color: #ffffff;
+	margin-top: 175px;
+	background-color: rgba(255,255,255,0.3);
+	font-size: 40px; 
+	text-align: center;
+}
